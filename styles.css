@@ -1,0 +1,136 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  position: relative; /* Container'ı göreli konuma ayarlayın */
+}
+
+.card {
+  width: 250px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.word {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.counter {
+  position: absolute;
+  top: 50px; /* Card'ın üstünde hemen göstermek için negatif üst kenar mesafesi ayarlayın */
+  left: 50%; /* Kartın tam ortasında hizalamak için yatayda ortalama yapın */
+  transform: translateX(-50%); /* Kartın yatayda tam ortalaması için gerekli */
+  font-size: 14px;
+  color: #555;
+}
+
+
+
+.info-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.info-link:hover {
+  color: #0056b3;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.message {
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.personalized-message {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.personalized-messagee {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: color 0.3s ease; /* Renk değişimine geçiş efekti ekleyin */
+  color: #333; /* Varsayılan renk */
+}
+
+.personalized-messagee:hover {
+  color: #28a745; /* Hover durumunda renk değiştirin */
+}
+
+
+.info-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.info-link:hover {
+  color: #6a97c7;
+}
